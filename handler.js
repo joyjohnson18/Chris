@@ -892,15 +892,15 @@ TO DEACTIVE , PRESS
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: '*ᴏɴʟʏ *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 ᴅᴇᴠᴇʟᴏᴘᴇʀ* • This command can only be used by the *Creator of the bot*',
-        owner: '*ᴏɴʟʏ *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 ᴏᴡɴᴇʀ* • This command can only be used by the *Bot Owner',
-        mods: '*ᴏɴʟʏ *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 ᴍᴏᴅᴇʀᴀᴛᴏʀ* •This function is only for **≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 Bot moderators*',
-        premium: '*ᴏɴʟʏ *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 ᴘʀᴇᴍɪᴜᴍ* • This command is for **≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 Premium members only',
-        group: '*≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 *ɢʀᴏᴜᴘ ᴄʜᴀᴛ* • This command can only be used in *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 active groups',
-        private: '* 🎌KINFLUX 𝘽𝙊𝙏 🎌 ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ* • This command can only be used in the *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 private chat of the Bot*',
-        admin: '*ᴏɴʟʏ ≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 ᴀᴅᴍɪɴ* • This command is only for *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌Group Admins*',
-        botAdmin: '*ᴏɴʟʏ ʙᴏᴛ ᴀᴅᴍɪɴ* • To use this command *≡ 🎌KINFLUX 𝘽𝙊𝙏 🎌 must be *Admin!*',
-        unreg: '*ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʀᴇɢɪsᴛᴇʀᴇᴅ ʏᴇᴛ* •  Sign in to use this feature Typing:\n\n*/reg name.age*\n\n📌Example : */reg kinflux.20*', 
+        rowner: '*ᴏɴʟʏ *≡ 🎌CHRIS BOT 🎌 ᴅᴇᴠᴇʟᴏᴘᴇʀ* • This command can only be used by the *Creator of the bot*',
+        owner: '*ᴏɴʟʏ *≡ 🎌CHRIS BOT 🎌 ᴏᴡɴᴇʀ* • This command can only be used by the *Bot Owner',
+        mods: '*ᴏɴʟʏ *≡ 🎌CHRIS BOT 🎌 ᴍᴏᴅᴇʀᴀᴛᴏʀ* •This function is only for **≡ 🎌CHRIS BOT 🎌 Bot moderators*',
+        premium: '*ᴏɴʟʏ *≡ 🎌CHRIS BOT 🎌 ᴘʀᴇᴍɪᴜᴍ* • This command is for **≡ 🎌CHRIS BOT 🎌 Premium members only',
+        group: '*≡ 🎌CHRIS BOT 🎌 *ɢʀᴏᴜᴘ ᴄʜᴀᴛ* • This command can only be used in *≡ 🎌CHRIS BOT 🎌 active groups',
+        private: '* 🎌CHRIS BOT 🎌 ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ* • This command can only be used in the *≡ 🎌CHRIS BOT 🎌 private chat of the Bot*',
+        admin: '*ᴏɴʟʏ ≡ 🎌CHRIS BOT 🎌 ᴀᴅᴍɪɴ* • This command is only for *≡ 🎌CHRIS BOT 🎌Group Admins*',
+        botAdmin: '*ᴏɴʟʏ ʙᴏᴛ ᴀᴅᴍɪɴ* • To use this command *≡ 🎌CHRIS BOT 🎌 must be *Admin!*',
+        unreg: '*ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ʀᴇɢɪsᴛᴇʀᴇᴅ ʏᴇᴛ* •  Sign in to use this feature Typing:\n\n*/reg name.age*\n\n📌Example : */reg Christian.20*', 
         restrict: '*ʀᴇsᴛʀɪᴄᴛ* • This feature is *disabled*',
     }[type]
     if (msg) return m.reply(msg)
